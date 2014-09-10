@@ -1,0 +1,16 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.workspace':
+    'Insert random string': 'atom-randomstring:insert'
+
+'menu': [
+  {
+    'label': 'Edit'
+    'submenu': [
+      'label': 'Text'
+      'submenu': [
+        { 'label': 'Insert random string', 'command': 'atom-randomstring:insert' }
+      ]
+    ]
+  }
+]
