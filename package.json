@@ -1,7 +1,7 @@
 {
   "name": "atom-randomstring",
   "main": "./lib/atom-randomstring",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Atom editor wrapper around randomstring",
   "repository": "https://github.com/robballou/atom-randomstring",
   "license": "MIT",
